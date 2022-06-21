@@ -1,0 +1,148 @@
+/*Limpando formatações padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    --primary: 146, 37, 218;
+    color: 44, 62, 80;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background: linear-gradient(45deg, #0064FE, cyan) ;
+    height: calc(var(--vh, 1vh) *100);
+    overflow: hidden;
+    color: rgb(var(--color));
+
+}
+
+.wallpaper{
+    float: right;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+    background: rgba(1, 196, 255, 0.274);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur( 10px);
+    height: 100vh;
+    position: absolute;
+    margin: 150px;
+    
+}
+
+/*.container::after{
+    content: '';
+    position: absolute;
+    right: -150px;
+    background: rgb(0, 247, 255);
+    height: 100vh;
+    width: 150px;
+    top: 0px;
+    transform: skew(3deg);
+    border: 40px 0 0 40px;
+}
+*/
+#rodape{
+    margin-top: auto;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: auto;
+    font-family: ;
+    }
+
+.essential{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right:150px;
+    font-size: 2.8em;
+    clear: both;   
+    font-family: Times New Roman;
+}
+
+.der-input{
+    margin-top: 10px;
+}
+
+.der-input input:focus{
+    opacity: 1;
+}
+
+.der-input label{
+    display: block;
+    padding: 8px;
+}
+
+.con-login footer{
+    width: 100%;
+}
+
+/*Dentro do login e senha*/
+.der-input input{
+    width: 300;
+    padding: 16px 60px;
+    border: 0px;
+    background-color: #f1f3f6;
+    border-radius: 10px;
+    border: 2px solid rgb(var(--color));
+    transition: all .25s ease;
+    opacity: .8;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0.24);
+}
+
+/*Botão Login*/
+.bnt-login{
+    background: rgb(var(--primary));
+    color: #fff;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 18px;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    font-size: 1.8rem;
+    transform: all .25s ease;
+   
+}
+
+.der-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 35px;
+    max-width: 400px;
+    
+}
+
+.der-login h1{
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+.der-login .die-inputs{
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.der-login .die-inputs .forget{
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+}
+.der-login .die-inputs .forget a{
+    text-decoration: none;
+    color: rgb(var(--color));
+    font-size: .9rem;
+}
+
